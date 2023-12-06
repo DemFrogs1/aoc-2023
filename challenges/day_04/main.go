@@ -66,9 +66,11 @@ func calcPoints(common []string) int {
 }
 func calcScratchpads() int {
 	scratchpads := 0
+
 	for _, value := range instances {
 		scratchpads += value
 	}
+
 	return scratchpads
 }
 func addInstances(id int, index int) {
